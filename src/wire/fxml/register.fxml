@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.geometry.Insets?>
+
+<Pane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="wire.RegisterController">
+   <children>
+      <ImageView fitHeight="600.0" fitWidth="800.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/background.jpg" />
+         </image>
+      </ImageView>
+      
+      <VBox alignment="CENTER" spacing="15.0" style="-fx-background-color: rgba(255,255,255,0.9); -fx-background-radius: 20;" layoutX="200.0" layoutY="50.0" prefHeight="500.0" prefWidth="400.0">
+         <padding>
+            <Insets bottom="40.0" left="40.0" right="40.0" top="40.0" />
+         </padding>
+         <children>
+            <Label text="Register for Wire" style="-fx-text-fill: #2E8B57; -fx-font-weight: bold;">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            
+            <TextField fx:id="nameField" promptText="Full Name" style="-fx-background-radius: 10; -fx-border-radius: 10;" />
+            <TextField fx:id="idNumberField" promptText="ID Number" style="-fx-background-radius: 10; -fx-border-radius: 10;" />
+            <TextField fx:id="phoneField" promptText="Phone Number" style="-fx-background-radius: 10; -fx-border-radius: 10;" />
+            <PasswordField fx:id="pinField" promptText="PIN" style="-fx-background-radius: 10; -fx-border-radius: 10;" />
+            <PasswordField fx:id="confirmPinField" promptText="Confirm PIN" style="-fx-background-radius: 10; -fx-border-radius: 10;" />
+            
+            <Button fx:id="registerBtn" mnemonicParsing="false" onAction="#handleRegister" prefHeight="40.0" prefWidth="200.0" text="Register" />
+            <Button fx:id="backBtn" mnemonicParsing="false" onAction="#handleBack" prefHeight="40.0" prefWidth="200.0" text="Back to Login" />
+         </children>
+      </VBox>
+   </children>
+</Pane>

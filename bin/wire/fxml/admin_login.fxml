@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.geometry.Insets?>
+
+<Pane prefHeight="800.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="wire.AdminLoginController">
+   <children>
+      <ImageView fitHeight="600.0" fitWidth="800.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/background.jpg" />
+         </image>
+      </ImageView>
+      
+      <VBox alignment="CENTER" spacing="20.0" style="-fx-background-color: rgba(255,255,255,0.9); -fx-background-radius: 20;" layoutX="200.0" layoutY="100.0" prefHeight="400.0" prefWidth="400.0">
+         <padding>
+            <Insets bottom="40.0" left="40.0" right="40.0" top="40.0" />
+         </padding>
+         <children>
+            <Label text="Wire Admin" style="-fx-text-fill: #2E8B57; -fx-font-weight: bold;" textFill="#2e8b57">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Label>
+            
+            <TextField fx:id="usernameField" promptText="Username" style="-fx-background-radius: 10; -fx-border-radius: 10;" />
+            <PasswordField fx:id="passwordField" promptText="Password" style="-fx-background-radius: 10; -fx-border-radius: 10;" />
+            
+            <Button fx:id="loginBtn" mnemonicParsing="false" onAction="#handleLogin" prefHeight="40.0" prefWidth="200.0" text="Admin Login" />
+            <Button fx:id="backBtn" mnemonicParsing="false" onAction="#handleBack" prefHeight="40.0" prefWidth="200.0" text="Back to Main" />
+         </children>
+      </VBox>
+   </children>
+</Pane>

@@ -1,0 +1,21 @@
+{
+    "java.project.sourcePaths": [
+        "src"
+    ],
+    "java.project.referencedLibraries": [
+        "c:\\Users\\mutho\\Downloads\\javafx-sdk-25.0.1\\lib\\jfx.incubator.richtext.jar",
+        "c:\\Users\\mutho\\Downloads\\javafx-sdk-25.0.1\\lib\\jdk.jsobject.jar",
+        "c:\\Users\\mutho\\Downloads\\javafx-sdk-25.0.1\\lib\\sqlite-jdbc-3.51.0.0.jar",
+        "c:\\Users\\mutho\\Downloads\\javafx-sdk-25.0.1\\lib\\javafx.fxml.jar",
+        "c:\\Users\\mutho\\Downloads\\javafx-sdk-25.0.1\\lib\\javafx.web.jar",
+        "c:\\Users\\mutho\\Downloads\\javafx-sdk-25.0.1\\lib\\jfx.incubator.input.jar",
+        "c:\\Users\\mutho\\Downloads\\javafx-sdk-25.0.1\\lib\\javafx.controls.jar",
+        "c:\\Users\\mutho\\Downloads\\javafx-sdk-25.0.1\\lib\\javafx.graphics.jar",
+        "c:\\Users\\mutho\\Downloads\\javafx-sdk-25.0.1\\lib\\javafx.media.jar",
+        "c:\\Users\\mutho\\Downloads\\javafx-sdk-25.0.1\\lib\\pdfbox-app-3.0.6.jar",
+        "c:\\Users\\mutho\\Downloads\\javafx-sdk-25.0.1\\lib\\javafx.swing.jar",
+        "c:\\Users\\mutho\\Downloads\\javafx-sdk-25.0.1\\lib\\javafx-swt.jar",
+        "c:\\Users\\mutho\\Downloads\\javafx-sdk-25.0.1\\lib\\javafx.base.jar"
+    ],
+    "java.project.outputPath": "bin"
+}
